@@ -36,13 +36,41 @@ const Index = () => {
         <Divider />
         <VStack spacing={4} align="stretch">
           <Text fontWeight="medium">Follow Us</Text>
-          <NavItem icon={FaFacebook}>Facebook</NavItem>
-          <NavItem icon={FaInstagram}>Instagram</NavItem>
-          <NavItem icon={FaTwitter}>Twitter</NavItem>
-          <NavItem icon={FaApple}>Apple Music</NavItem>
-          <NavItem icon={FaYoutube}>YouTube</NavItem>
-          <NavItem icon={SiAudiomack}>AudioMack</NavItem>
-          <NavItem icon={FaTiktok}>TikTok</NavItem>
+          <NavItem icon={FaFacebook}>
+            <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+              Facebook
+            </a>
+          </NavItem>
+          <NavItem icon={FaInstagram}>
+            <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+              Instagram
+            </a>
+          </NavItem>
+          <NavItem icon={FaTwitter}>
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+              Twitter
+            </a>
+          </NavItem>
+          <NavItem icon={FaApple}>
+            <a href="https://music.apple.com/us/artist/yourartistname/id123456789" target="_blank" rel="noopener noreferrer">
+              Apple Music
+            </a>
+          </NavItem>
+          <NavItem icon={FaYoutube}>
+            <a href="https://www.youtube.com/channel/yourchannelid" target="_blank" rel="noopener noreferrer">
+              YouTube
+            </a>
+          </NavItem>
+          <NavItem icon={SiAudiomack}>
+            <a href="https://audiomack.com/artist/yourartistname" target="_blank" rel="noopener noreferrer">
+              AudioMack
+            </a>
+          </NavItem>
+          <NavItem icon={FaTiktok}>
+            <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer">
+              TikTok
+            </a>
+          </NavItem>
         </VStack>
       </VStack>
       <VStack flex={1} p={8} spacing={8} align="stretch">
