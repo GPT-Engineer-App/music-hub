@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, VStack, HStack, Heading, Text, Divider, Spacer, Input, Button, Image, Grid, GridItem, Icon } from "@chakra-ui/react";
-import { FaHome, FaMusic, FaSearch, FaList, FaUser, FaCompactDisc, FaTicketAlt, FaUsers, FaBook, FaUserCircle, FaEnvelope, FaNewspaper } from "react-icons/fa";
+import { FaHome, FaMusic, FaSearch, FaList, FaUser, FaCompactDisc, FaTicketAlt, FaUsers, FaBook, FaUserCircle, FaEnvelope, FaNewspaper, FaFacebook, FaInstagram, FaTwitter, FaApple, FaYoutube, FaTiktok } from "react-icons/fa";
+import { SiAudiomack } from "react-icons/si";
 
 const NavItem = ({ icon, children, ...rest }) => {
   return (
@@ -32,6 +33,17 @@ const Index = () => {
         <NavItem icon={FaUserCircle}>User Profile</NavItem>
         <NavItem icon={FaEnvelope}>Contact/Support</NavItem>
         <NavItem icon={FaNewspaper}>Blog/News</NavItem>
+        <Divider />
+        <VStack spacing={4} align="stretch">
+          <Text fontWeight="medium">Follow Us</Text>
+          <NavItem icon={FaFacebook}>Facebook</NavItem>
+          <NavItem icon={FaInstagram}>Instagram</NavItem>
+          <NavItem icon={FaTwitter}>Twitter</NavItem>
+          <NavItem icon={FaApple}>Apple Music</NavItem>
+          <NavItem icon={FaYoutube}>YouTube</NavItem>
+          <NavItem icon={SiAudiomack}>AudioMack</NavItem>
+          <NavItem icon={FaTiktok}>TikTok</NavItem>
+        </VStack>
       </VStack>
       <VStack flex={1} p={8} spacing={8} align="stretch">
         <Heading>Welcome to Music Website</Heading>
