@@ -1,14 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Box, VStack, HStack, Heading, Text, Divider, Spacer, Input, Button, Image, Grid, GridItem, Icon } from "@chakra-ui/react";
 import { FaHome, FaMusic, FaSearch, FaList, FaUser, FaCompactDisc, FaTicketAlt, FaUsers, FaBook, FaUserCircle, FaEnvelope, FaNewspaper, FaFacebook, FaInstagram, FaTwitter, FaApple, FaYoutube, FaTiktok } from "react-icons/fa";
 import { SiAudiomack } from "react-icons/si";
 
-const NavItem = ({ icon, children, ...rest }) => {
+const NavItem = ({ icon, children, to, ...rest }) => {
   return (
-    <HStack align="center" spacing={4} {...rest}>
-      <Icon as={icon} boxSize={6} />
-      <Text fontWeight="medium">{children}</Text>
-    </HStack>
+    <Link to={to}>
+      <HStack align="center" spacing={4} {...rest}>
+        <Icon as={icon} boxSize={6} />
+        <Text fontWeight="medium">{children}</Text>
+      </HStack>
+    </Link>
   );
 };
 
