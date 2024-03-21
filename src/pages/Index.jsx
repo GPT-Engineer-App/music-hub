@@ -87,21 +87,21 @@ const Index = () => {
         <Grid templateColumns="repeat(3, 1fr)" gap={8}>
           <GridItem>
             <VStack align="stretch">
-              <Image src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGFsYnVtJTIwY292ZXJ8ZW58MHx8fHwxNzEwNDI5MjYyfDA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" />
+              <Image src="https://i.ibb.co/cQ84r3t/top-hits.jpg" borderRadius="md" />
               <Heading size="md">Top Hits</Heading>
               <Text>Check out the most popular songs right now.</Text>
             </VStack>
           </GridItem>
           <GridItem>
             <VStack align="stretch">
-              <Image src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGFydGlzdCUyMHBvcnRyYWl0fGVufDB8fHx8MTcxMDQ2NTg2Mnww&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" />
+              <Image src="https://i.ibb.co/ypbKVJg/rising-artists.jpg" borderRadius="md" />
               <Heading size="md">Rising Artists</Heading>
               <Text>Discover emerging talents in the music scene.</Text>
             </VStack>
           </GridItem>
           <GridItem>
             <VStack align="stretch">
-              <Image src="https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGV2ZW50JTIwY3Jvd2R8ZW58MHx8fHwxNzEwNDY1ODYzfDA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" />
+              <Image src="https://i.ibb.co/w4WK035/upcoming-events.jpg" borderRadius="md" />
               <Heading size="md">Upcoming Events</Heading>
               <Text>Don't miss out on the hottest music events near you.</Text>
             </VStack>
